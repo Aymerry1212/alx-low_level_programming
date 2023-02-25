@@ -8,12 +8,11 @@
 void print_numbers(void)
 
 {
-	int start = 0, end = 9;
+	int i;
 
-	while (start <= end)
+	for (i = '0'; i <= '9'; i++)
 	{
-	_putchar(start + '0');
-	start++;
+	_putchar(i);
 	}
 	_putchar('\n');
 }
